@@ -2,6 +2,7 @@
   height: var(--carousel-height);
   position: relative;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 .carousel__caption {
@@ -15,6 +16,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  opacity: 0.7;
+  border-radius: 3px;
 }
 
 .carousel__price {
@@ -93,6 +96,13 @@
   justify-content: center;
   width: 70px;
   height: 70px;
+}
+
+.carousel__arrow:hover {
+  background: rgb(149, 231, 146);
+  transition: 0.3s;
+  opacity: 0.8;
+  border-radius: 3px;
 }
 
 .carousel__arrow_right {
